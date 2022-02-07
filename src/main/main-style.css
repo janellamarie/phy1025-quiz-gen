@@ -1,0 +1,121 @@
+/** https://colorhunt.co/palette/150168
+    https://uigradients.com/#EveningSunshine*/
+
+.root {
+    -fx-background-color: #17223b;
+    -fx-font-size: 12pt;
+    -fx-fill: white;
+}
+
+.label-question {
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+
+#title {
+    -fx-text-fill: #ff6768;
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+#warning {
+    -fx-text-fill: firebrick;
+    -fx-font-weight: bold;
+}
+
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-padding: 10;
+}
+
+.scroll-pane > viewport{
+    -fx-background: transparent;
+}
+
+.radio-button {
+    -fx-text-fill: white;
+}
+
+.combo-box {
+   /** https://stackoverflow.com/questions/19343531/javafx-combobox-styling */
+    -fx-pref-width: 70px;
+    -fx-font-size: 9pt;
+}
+
+.text-field {
+    -fx-pref-width: 50px;
+    -fx-font-size: 9pt;
+}
+
+.textfield-chapter {
+    -fx-pref-width: 180px;
+    -fx-cursor: pointer;
+}
+
+.chapter-title-label {
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #263859;
+    -fx-text-fill: white;
+    -fx-min-height: 50px;
+    -fx-min-width: 200px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #6b778d;
+}
+
+#important-button {
+    -fx-background-color: #ff6768;
+}
+
+#important-button:hover {
+    -fx-background-color: rgba(143, 58, 58, 0.98);
+}
+
+#start-quiz {
+    -fx-background-color: #ff6768;
+    -fx-min-height: 50px;
+    -fx-min-width: 200px;
+}
+
+#start-quiz:hover {
+    -fx-background-color: rgba(143, 58, 58, 0.98);
+}
+
+.vbox-quiz {
+    -fx-padding: 15px;
+    -fx-background-color: #263859;
+}
+
+#wrong {
+    -fx-background-color: rgba(74, 29, 29, 0.98);
+}
+
+#correct {
+    -fx-background-color: rgba(7, 74, 25, 0.98);
+}
+
+/* https://stackoverflow.com/questions/12038179/javafx-2-0-how-to-change-the-size-of-the-radio-buttons-circle-with-css */
+.radio-button .radio {
+    -fx-padding: 2px;
+    -fx-background-image: null;
+    -fx-cursor: hand;
+}
+
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+
+.radio-button:disabled {
+    -fx-opacity: 1.0;
+}
